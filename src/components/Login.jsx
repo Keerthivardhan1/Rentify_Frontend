@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { useUser } from '../store';
 import { useNavigate } from 'react-router-dom';
-import house from '../../public/house2.svg'
+import house from '/house2.svg'
 
 const Login = () => {
     const [form, setForm] = useState({

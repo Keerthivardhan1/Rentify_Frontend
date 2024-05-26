@@ -2,7 +2,7 @@ import  {  useState } from 'react';
 import axios from 'axios';
 import { useUser } from '../store';
 import {Link, useNavigate} from 'react-router-dom'
-import house from '../../public/house.svg'
+import house from '/house.svg'
 
 const Register = () => {
     const [form, setForm] = useState({
